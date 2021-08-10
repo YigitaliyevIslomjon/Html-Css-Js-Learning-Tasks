@@ -1,0 +1,131 @@
+$yashil:#009688;
+$disabled:#c5c5c5;
+$orqafon:#eeeeee;
+
+
+
+
+
+.asosiy{
+	width:510px;
+	height:760px;
+	border:0px solid red;
+	margin:20px auto;
+	display:flex;
+	flex-wrap:wrap;
+		
+
+	.bk1{
+		width:254px;
+		height:185px;
+		border:0px solid red; 
+		margin-bottom:5px; 
+		background-color:$orqafon;
+
+	}
+	.bk2{
+		width:254px;
+		height:185px;
+		border:0px solid red;
+		margin-bottom:5px;
+		background-color:$orqafon; 
+	}
+	.bk3{
+		width:254px;
+		height:546px;
+		border:0px solid red; 
+		background-color:$orqafon;
+		
+	}
+	.bk4{
+		width:254px;
+		height:546px;
+		border:0px solid red; 
+		background-color:$orqafon;
+
+		
+	}	
+
+}
+
+*{
+	box-sizing:border-box;
+}
+
+
+.btn{
+	width:106px;
+	height:40px;
+	display:block;
+	margin:65px auto;
+
+	&.Flat{
+		background-color:$orqafon;
+		border:0px;
+		outline:0;
+		
+
+	}
+	&.FNORMAL{
+		color:$yashil;
+		background-color:$orqafon;
+		font-weight: 550;
+		border:0px;
+	}
+	&.FPRESSED{
+		background-color:#dddddd;
+		border:0px;
+	}
+
+	&.FDISABLED{
+		background-color:$orqafon;
+		color:#949494;
+		font-weight:600;
+		border:0px;
+
+	}
+	&.Raised{
+		background-color:$orqafon;
+		border:0px;
+		outline:0;
+		
+
+	}
+	&.RNORMAL{
+		color:white;
+		background-color:$yashil;
+		font-weight: 550;
+		border:0px;
+		box-shadow:0px 4px 5px #aeaeae;
+	}
+	&.RPRESSED{
+		background-color:#39a298;
+		color:white;
+		border:0px;
+		box-shadow:0px 6px 8px #aeaeae;
+	}
+
+	&.RDISABLED{
+		background-color:$disabled;
+		color:#7a7a7a;
+		font-weight:600;
+		border:0px;
+
+	}
+	
+	
+
+}
+
+
+
+.btn-yumaloq{
+ border-radius:30px;
+ width:60px;
+ height:60px;
+ font-size:30px;	
+ color:white;
+ background-color:$yashil;
+ box-shadow:0px 10px 10px #aeaeae;
+ border:0px;
+}

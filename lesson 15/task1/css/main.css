@@ -1,0 +1,87 @@
+.asosiy {
+  width: 510px;
+  height: 760px;
+  border: 10px solid blue;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap; }
+  .asosiy .bk1 {
+    width: 254px;
+    height: 185px;
+    border: 0px solid red;
+    margin-bottom: 5px;
+    background-color: #eeeeee; }
+  .asosiy .bk2 {
+    width: 254px;
+    height: 185px;
+    border: 0px solid red;
+    margin-bottom: 5px;
+    background-color: #eeeeee; }
+  .asosiy .bk3 {
+    width: 254px;
+    height: 546px;
+    border: 0px solid red;
+    background-color: #eeeeee; }
+  .asosiy .bk4 {
+    width: 254px;
+    height: 546px;
+    border: 0px solid red;
+    background-color: #eeeeee; }
+
+* {
+  box-sizing: border-box; }
+
+.btn {
+  width: 106px;
+  height: 40px;
+  display: block;
+  margin: 65px auto; }
+  .btn.Flat {
+    background-color: #eeeeee;
+    border: 0px;
+    outline: 0; }
+  .btn.FNORMAL {
+    color: #009688;
+    background-color: #eeeeee;
+    font-weight: 550;
+    border: 0px; }
+  .btn.FPRESSED {
+    background-color: #dddddd;
+    border: 0px; }
+  .btn.FDISABLED {
+    background-color: #eeeeee;
+    color: #949494;
+    font-weight: 600;
+    border: 0px; }
+  .btn.Raised {
+    background-color: #eeeeee;
+    border: 0px;
+    outline: 0; }
+  .btn.RNORMAL {
+    color: white;
+    background-color: #009688;
+    font-weight: 550;
+    border: 0px;
+    box-shadow: 0px 4px 5px #aeaeae; }
+  .btn.RPRESSED {
+    background-color: #39a298;
+    color: white;
+    border: 0px;
+    box-shadow: 0px 6px 8px #aeaeae; }
+  .btn.RDISABLED {
+    background-color: #c5c5c5;
+    color: #7a7a7a;
+    font-weight: 600;
+    border: 0px; }
+
+.btn-yumaloq {
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  color: white;
+  background-color: #009688;
+  box-shadow: 0px 10px 10px #aeaeae;
+  border: 0px; }
+
+/*# sourceMappingURL=main.css.map */

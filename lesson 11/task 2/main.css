@@ -1,0 +1,142 @@
+body
+{
+	background-color:#f9f9f9; 
+}
+
+.asosiy{
+	width:1173px;
+	width:89%; 
+	margin:40px auto;
+	border:0px solid;
+	
+	position:relative;
+}
+
+.raw1{
+	margin-bottom:40px;
+	width:100%; 
+}
+.raw2{
+	
+	width:100%; 
+	display:flex;
+	justify-content:space-between;
+	border:0px solid red;
+
+}
+.bk
+{
+
+	background-color:white; 
+	text-align: center;
+	border:2px solid #cccccc;
+	width:19%;
+	height:396px;	
+	
+
+}
+
+
+img
+{
+	width:100%;
+	border:0px solid;
+	margin-bottom:0px;
+
+}
+
+.chiziq1
+{	
+	margin-top:0px;
+	width:100%;
+	height:2px;
+	
+	top:-14px;
+}
+#chiziq2
+{
+	width:100%;
+	height:4px;
+}
+
+#kalta1{
+
+	width:20%; 
+	margin-right:6px;
+	height:2px;
+}
+#kalta2{
+	height:2px;
+	margin-left:6px;
+	width:20%; 
+}
+#karzinka
+{
+
+	height:11px;
+	width:12%; 
+	border:0px;
+}
+.strelka
+{
+	width:4.7%;
+	height:24px;
+	position:absolute;
+	top:20px;
+	right:0px; 
+}
+.yulduz
+{
+	color:red;
+	position:relative;
+	top:4px;	
+	color:#ffef44;
+	font-size:125%;
+
+
+}
+
+h1{
+	margin:0px;
+	padding: 0px;
+	display:inline-block;
+	border:0px solid red;
+	font-weight:550px;		
+}
+h4{
+	text-align: center;
+	border:0px solid;
+	margin:4px 0px 5px 0px;
+	font-size:18px;
+	font-weight: normal;
+
+
+
+
+}
+
+del{
+	margin-top:10px;
+	display:inline-block;
+	font-size:17px;
+	color:#cccccc;
+
+
+}
+#narx{
+	font-size:21px;
+	font-weight:590px;
+}
+button{
+	
+	margin-top:8px;
+	width:50%;
+	height:30px;
+	background-color:white;
+	border:2px solid #cccccc;
+}
+.hidden{
+	visibility:hidden;
+}
+
+

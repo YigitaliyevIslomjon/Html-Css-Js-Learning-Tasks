@@ -1,0 +1,86 @@
+.asosiy
+{	
+	margin:100px auto 30px auto;
+	width:1000px;
+	border:0px solid red;
+	display:flex;
+	justify-content:space-between;
+
+}
+.bk1,.bk2,.bk3
+{
+	
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	width:250px;
+	height:100px; 
+	border:1px solid;
+	padding:1rem 3rem;
+	background-size:200%;
+	
+	transition:all 0.5s linear;
+	
+}
+.bk1
+{
+	background-image:linear-gradient(90deg,#f6d166,#f6d166,#fca482,#fca482,#fca482);	
+}
+.bk2
+{
+	background-image:linear-gradient(90deg,#f9c2eb,#f9c2eb,#abc1ed,#abc1ed,#abc1ed);	
+}
+.bk3
+{
+	background-image:linear-gradient(90deg,#49e18a,#49e18a,#7ccdee,#7ccdee,#7ccdee);	
+}
+.bk4
+{
+	background-image:linear-gradient(90deg,#93befc,#93befc,#f0f7fb,#f0f7fb,#f0f7fb);		
+}
+.bk5
+{
+	background-image:linear-gradient(90deg,#fdf4e8,#fdf4e8,#fbb197,#fbb197,#fbb197);	
+}
+.asosiy2
+{	
+	margin:0px auto 0px auto;
+	width:1000px;
+	border:0px solid red;
+	display:flex;
+	justify-content:space-between;
+}
+.bk4,.bk5
+{
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	width:400px;
+	height:100px; 
+	border:1px solid;
+	padding:1rem 3rem;
+	background-size:200%;
+	
+	transition:all 0.5s linear;
+	
+}
+.bk1:hover
+{
+	background-position:right;
+}
+.bk2:hover
+{
+	background-position:right;
+}
+.bk3:hover
+{
+	background-position:right;
+}
+.bk4:hover
+{
+	background-position:right;
+}
+.bk5:hover
+{
+	background-position:right;
+}

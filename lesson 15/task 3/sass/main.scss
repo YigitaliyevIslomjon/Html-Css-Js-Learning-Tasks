@@ -1,0 +1,64 @@
+.asosiy{
+	width:612px;
+	height:764px;
+	border:1px solid red;
+	margin:10px auto;
+	text-align: center;
+	padding-top:60px;
+	background-color: #eeeeee;
+}
+
+.input{
+	width:450px;
+	height:25px;
+	border:0px;
+	border-bottom:3px solid #cbcbcb;
+	padding:0px;
+	margin-bottom:60px;
+	font-size:20px;
+	outline:0;
+
+	background-color:#eeeeee;
+	&.dis{
+		
+		color:#9f9f9f;
+		font-size:23px;
+		cursor:disabled;
+
+		
+	}
+	&.bottomred{
+		border-bottom:3px solid red;
+		color: red;
+	}
+	
+	&.bottomgreen{
+			
+
+	}
+	&:focus{
+		border-bottom:3px solid green;
+	}
+	&:active{
+		border-bottom:3px solid green;
+	}
+
+
+}
+.input:first-letter{
+	color: red;
+	font-size:25px;
+}
+span{
+	color: red;
+	display:inline-block;
+	position:relative;
+	top:-60px;
+	left:-90px;
+	font-size:17px;
+}
+img{
+	position:relative;
+	top:-55px;
+	left:93px;
+}

@@ -1,0 +1,153 @@
+body{
+    background-color:#cccccc;
+}
+.katta{
+    width:95%;
+    display:flex;
+    border:0px solid red;
+    margin: 200px auto;
+}
+
+.asosiy{
+    width:300px;
+    border:0px solid red;
+    position: relative;
+}
+.asosiy2{
+    width:300px;
+    border:0px solid green;
+    position: relative;
+}
+.asosiy3{
+    width:300px;
+
+    border:0px solid red;
+    position: relative;
+}
+.asosiy4{
+    width:300px;
+
+    border:0px solid red;
+    position: relative;
+}
+.asosiy5{
+    width:300px;
+
+    border:0px solid red;
+    position: relative;
+}
+.bk{
+    margin-right: 100px;
+    width:160px;
+    height:160px;
+    border-radius:25px;
+    border:0 solid blue;
+    overflow:hidden;
+    position:absolute;
+    z-index:2;
+    background-color:white;
+}
+
+a{
+    width:160px;
+    height:160px;
+    border:0px solid red;
+    display:block;
+    border-radius:25px;
+    box-sizing:border-box;
+    padding-top:50px;
+    background-image:url("img/facebook.png");
+    background-size:50px;
+    background-repeat: no-repeat;
+    background-position:center;
+    position:absolute;
+    z-index:3;
+}
+.asosiy2 a {
+    background-image:url("img/twitter.png");
+}
+.asosiy3 a {
+    background-image:url("img/google.png");
+}
+.asosiy4 a {
+    background-image:url("img/dribble.png");
+}
+.asosiy5 a {
+    background-image:url("img/scype.png");
+}
+.s1{
+    width:230px;
+    height:230px;
+    border:1px solid red;
+    display:block;
+    position:absolute;
+    top:120px;
+    left:-200px;
+    z-index:1;
+    transform:rotateZ(45deg);
+    transition:all 0.5s;
+}
+
+a:hover +.s1 {
+    cursor: pointer;
+    background-color: blue;
+    animation:ism2 0.8s 0s 1 linear forwards;
+
+}
+.asosiy2 a:hover + .s1 {
+    background-color: deepskyblue;
+}
+.asosiy3 a:hover + .s1 {
+    background-color:red;
+}
+.asosiy4 a:hover + .s1 {
+    background-color:plum;
+}
+.asosiy5 a:hover + .s1 {
+    background-color:lightskyblue;
+}
+a:hover {
+    background-image:url("img/facebook_w.png");
+    background-repeat: no-repeat;
+    background-size:60px;
+    background-position:center;
+
+}
+.asosiy2 a:hover
+{
+    background-image:url("img/twitter_w.png");
+    background-repeat: no-repeat;
+    background-size:60px;
+    background-position:center;
+}
+.asosiy3 a:hover
+{
+    background-image:url("img/google_w.png");
+    background-repeat: no-repeat;
+    background-size:60px;
+    background-position:center;
+}
+.asosiy4 a:hover
+{
+    background-image:url("img/dribble_w.png");
+    background-repeat: no-repeat;
+    background-size:60px;
+    background-position:center;
+}
+.asosiy5 a:hover
+{
+    background-image:url("img/scype_2.png");
+    background-repeat: no-repeat;
+    background-size:60px;
+    background-position:center;
+}
+
+
+
+@keyframes ism2 {
+    0%{ top:120px; left:-200px;}
+    50%{top:-80px; left:-10px;}
+   100%{top:-34px; left:-38px;}
+
+
+}

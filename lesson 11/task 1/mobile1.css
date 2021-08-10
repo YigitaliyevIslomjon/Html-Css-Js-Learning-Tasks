@@ -1,0 +1,36 @@
+@media screen and (min-width:0px) and (max-width:446.9px)
+{
+		body
+	{
+		background-color: #cccccc; /*;*/	 
+	}
+
+	.asosiy{
+		width:100%;
+
+
+	}
+	.raw1
+	{
+		
+	border:0px solid black;
+
+
+
+	}
+			
+	.bk
+	{	
+		margin:10px auto 0px auto; 
+		display:block;
+		width:80%;
+		border:0px solid black;
+		
+
+	}
+	.q1{
+		padding-top:5px;
+		box-sizing: border-box;
+	}	
+
+} 
