@@ -1,0 +1,38 @@
+.header
+{	
+	margin:100px auto; 
+	width:920px; 
+	border:0px solid red;
+	display:flex;
+	justify-content:center;
+	justify-content:space-between; 
+
+
+}
+
+.bk1{
+	padding:10px 10px 20px 10px;
+	border:1px solid #cccccc;
+	width: 250px;
+	text-align: center;
+
+}
+img
+{
+	width:100px;
+	height:100px;
+}
+h1
+{	
+
+	font-size:22px;
+}
+.p1{
+
+	font-size:33px; 
+	font-weight:bold; 
+}
+.p2{
+	color:#cccccc;
+	font-size:22px;
+}

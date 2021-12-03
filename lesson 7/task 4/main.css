@@ -1,0 +1,63 @@
+.header
+{
+	margin:10px auto;
+	border:0px solid;
+	width:720px; 
+}
+
+.block1
+{	
+	display:flex;
+	justify-content:space-between;
+}
+
+.block2 img
+{
+	width:325px;
+}
+
+.block3{
+	width: 370px;
+}
+
+.block4
+{
+	margin-top:5px;
+}
+
+.block5 img
+{	
+	
+	margin:35px 20px 0px 0px;
+
+}
+.block5 .chekka
+{
+	margin:20px 0px 0px 240px;
+
+}
+
+
+.block4 img
+{	
+	width:13px;
+	opacity:20%;
+}
+
+font {
+	margin-left:2px;  
+	color:#cccccc;
+}
+h2{
+	margin-left:0px;
+	font-size:20px;  
+}
+h4
+{
+	color: #cccccc;
+}
+
+.block1,.block2,.block3,.block4
+{
+	border:0px solid red;
+}

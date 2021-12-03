@@ -1,0 +1,23 @@
+
+.bk1
+{
+	border:1px solid;
+	margin:100px auto;
+	text-align:center;
+	font-size:40px;
+	width:300px;
+	padding:30px;
+	background-color:#4183b2;
+	color:white; 
+	transition-property:all;	
+	transition-duration: 1s;	
+	transition-timing-function:ease-in; 
+    
+}
+
+.bk1:hover
+{
+
+	background-color:#15ab74;
+	border-radius:40px;	
+}
