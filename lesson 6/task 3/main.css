@@ -1,0 +1,52 @@
+.b4{
+	border:1px solid red; 
+}
+
+.bk1
+{	
+	background-position:0px 0px;  
+	background-size:100%; 
+	margin:20px auto;
+	width:620px; 
+	border:2px solid #dddddd;
+	height:420px;
+	background-repeat:no-repeat;   
+	background-image: linear-gradient(180deg,transparent,transparent,#567298), url("img/rasm1.png")
+}
+.bk2
+{
+	margin:20px auto;
+	width:620px; 
+	border:2px solid #dddddd;
+	height:420px;
+	background-repeat:no-repeat;   
+	background-image: linear-gradient(180deg,transparent,transparent,#567298), url("img/rasm2.png")
+}
+.bk3
+{
+	margin:20px auto;
+	width:620px; 
+	border:2px solid #dddddd;
+	height:420px;
+	background-repeat:no-repeat;   
+	background-image: linear-gradient(180deg,transparent,transparent,#567298), url("img/rasm3.png")
+}
+
+h1
+{
+	font-weight:550; 
+	font-family:arial;
+	width:450px; 
+	text-align:right; 
+	border:0px solid red; 
+	font-size:18px; 
+	color:white;
+ 	margin:335px 158px; 
+}
+
+p
+{
+	color: white;
+
+	margin:-320px 527px;
+}
